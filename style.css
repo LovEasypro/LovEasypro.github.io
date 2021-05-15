@@ -96,7 +96,7 @@ background: #880081;
     padding: 10px;
     min-width: 200px;
     margin-bottom:  50px;
-    
+    transition: transform 0.5s;
     
 }
 .col-4 img{
@@ -110,8 +110,27 @@ background: #880081;
     color: rgb(51, 49, 49);
 
 }
-
-
+.title::after{
+    content: '';
+    background: #f711eb;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+h4{
+    color:#555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4:hover{
+    transform: translate(-5px);
+}
 
 
 
