@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title> All Products -  LovEasy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"><img src="image/logo 2.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="https://www.instagram.com/loveasy_store/">Instagram</a></li>
+                    <li><a href="">Contact : 58242588</a></li>
+                    
+                </ul>
+        </div>
+     </div>
+    <!--------- single product details ------->
+    <div class="single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="image/Product 3.jpg" width="100%" id="ProductImg">
+    
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="image/Place Holder 2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="image/Place Holder 3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="image/logo 2.png" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <h1>Product 1</h1>
+                <h4>Rs 1200</h4>
+                <h2>On Delivery Order:58242588 </h2>
+                <h2>   Order on Juice:58311862</h2>
+                <h3>Product Details</h3>
+                <p>Love is always bestowed as a gift - freely, willingly and without expectation.<br> We don't love to be loved; we love to love.</p>
+            </div>
+        </div>
+    </div>
+    <!-----js product gallery ----->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg =document.getElementsByClassName("small-img");
+        SmallImg[0].onclick= function()
+        {
+            ProductImg.src=SmallImg[0].src;
+        }
+        SmallImg[1].onclick= function()
+        {
+            ProductImg.src=SmallImg[1].src;
+        }
+        SmallImg[2].onclick= function()
+        {
+            ProductImg.src=SmallImg[2].src;
+        }
+    </script>
+</body>
+</html>

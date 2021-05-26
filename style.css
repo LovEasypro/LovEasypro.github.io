@@ -142,3 +142,33 @@ h4{
 small{
     color: #555;
 }
+/*-------- single product details ------*/
+
+.single-product{
+    margin-top: 02px;
+}
+.single-product .col-2 img{
+    padding: 10;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product h3{
+    margin: 20px ;
+}
+.single-product p{
+    font-size: 20px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
